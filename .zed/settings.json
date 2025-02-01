@@ -1,0 +1,19 @@
+{
+  "format_on_save": "language_server",
+  "formatter": {
+    "language_server": {
+      "name": "biome"
+    }
+  },
+  "lsp": {
+    "biome": {
+      "settings": {
+        "config_path": "biome.jsonc"
+      }
+    }
+  },
+  "code_actions_on_format": {
+    "source.fixAll.biome": true,
+    "source.organizeImports.biome": true
+  }
+}
