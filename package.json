@@ -14,7 +14,7 @@
   "scripts": {
     "format": "biome format --write .",
     "format:check": "biome format .",
-    "test": "renovate-config-validator --strict default.json presets/*.json",
+    "test": "renovate-config-validator --strict default.json",
     "postinstall": "lefthook install"
   },
   "dependencies": {
