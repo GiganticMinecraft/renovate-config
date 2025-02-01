@@ -1,15 +1,9 @@
 {
-  "format_on_save": "language_server",
+  // 🥴 Fuck Zed.
+  "format_on_save": "off",
   "formatter": {
     "language_server": {
       "name": "biome"
-    }
-  },
-  "lsp": {
-    "biome": {
-      "settings": {
-        "config_path": "biome.jsonc"
-      }
     }
   },
   "code_actions_on_format": {
