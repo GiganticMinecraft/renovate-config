@@ -16,7 +16,7 @@ importers:
         version: 1.11.11
       renovate:
         specifier: '39'
-        version: 39.257.1(encoding@0.1.13)(typanion@3.14.0)
+        version: 39.257.8(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -290,8 +290,8 @@ packages:
     resolution: {integrity: sha512-EVMD0SgJtOuFeg0lAVbCwa+qeTKILb87jqvLyUtQswGD9+ce2nB52Y5zbTF1Hc0MDFfbydcMcxb47jSdhikVHA==}
     engines: {node: '>= 10'}
 
-  '@cdktf/hcl2json@0.20.11':
-    resolution: {integrity: sha512-k4CJkbUPyI+k9KOQjJ6qu2dIrpqSkXukt9R+kDaizWVM4yc8HDMLHnelC0X2oWsfeQNE8wSAm20SXkGlPLoFmw==}
+  '@cdktf/hcl2json@0.20.12':
+    resolution: {integrity: sha512-0kisly/cb4UK/cFhMAWMMEq+/FNFwPmDVoZ9ZphvDlXH62eytQcY5gaCxUrztKhncj2EYKovsTPbRq9C8GlRwg==}
 
   '@gwhitney/detect-indent@7.0.1':
     resolution: {integrity: sha512-7bQW+gkKa2kKZPeJf6+c6gFK9ARxQfn+FKy9ScTBppyKRWH2KzsmweXUoklqeEiHiNVWaeP5csIdsNq6w7QhzA==}
@@ -739,8 +739,8 @@ packages:
     resolution: {integrity: sha512-J9/gTWBGVuFZ01oVA6vdb4DAjf1XbDhK6sLsu3OS9qmLrS6KB5ygpeHiM3miIbj1qgSJ96GYszXFWv6ErJ8QEw==}
     engines: {node: '>=18.0.0'}
 
-  '@smithy/signature-v4@5.0.2':
-    resolution: {integrity: sha512-Mz+mc7okA73Lyz8zQKJNyr7lIcHLiPYp0+oiqiMNc/t7/Kf2BENs5d63pEj7oPqdjaum6g0Fc8wC78dY1TgtXw==}
+  '@smithy/signature-v4@5.1.0':
+    resolution: {integrity: sha512-4t5WX60sL3zGJF/CtZsUQTs3UrZEDO2P7pEaElrekbLqkWPYkgqNW1oeiNYC6xXifBnT9dVBOnNQRvOE9riU9w==}
     engines: {node: '>=18.0.0'}
 
   '@smithy/smithy-client@4.2.0':
@@ -1452,10 +1452,6 @@ packages:
 
   fs-constants@1.0.0:
     resolution: {integrity: sha512-y6OAwoSIf7FyjMIv94u+b5rdheZEjzR63GTyZJm5qh4Bi+2YgwLCcI/fPFZkL5PSixOt6ZNKm+w+Hfp/Bciwow==}
-
-  fs-extra@11.2.0:
-    resolution: {integrity: sha512-PmDi3uwK5nFuXh7XDTlVnS17xJS7vW36is2+w3xcv8SVxiB4NyATf4ctkVY5bkSjX0Y4nbvZCq1/EjtEyr9ktw==}
-    engines: {node: '>=14.14'}
 
   fs-extra@11.3.0:
     resolution: {integrity: sha512-Z4XaCL6dUDHfP/jT25jJKMmtxvuwbkrD1vNSMFlo9lNLY2c5FHYSQgHPRZUjAB26TpDEoW9HCOgplrdbaPV/ew==}
@@ -2450,8 +2446,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@39.257.1:
-    resolution: {integrity: sha512-hNHEaG1x/hiwpRNy4ra+pfgp+yn1ej6HGiS3qRN/bBaUJQKLwmg3Rpc+8nJ/SySC4oWIAGd4WVfOgHW9PGDX0w==}
+  renovate@39.257.8:
+    resolution: {integrity: sha512-yMJrjMuqJjojO4/noD6XM9mCxJ0r87aFrzlfUS7jiDQtS+0iTBttp8WVhoeD4yQusS23siissn0dC9Vy4Rg4rw==}
     engines: {node: ^20.15.1 || ^22.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -2960,8 +2956,8 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
 
-  zod@3.24.2:
-    resolution: {integrity: sha512-lY7CDW43ECgW9u1TcT3IoXHflywfVqDYze4waEz812jR/bZ8FHDsl7pFQoSZTz5N+2NqRXs8GBwnAwo3ZNxqhQ==}
+  zod@3.24.3:
+    resolution: {integrity: sha512-HhY1oqzWCQWuUqvBFnsyrtZRhyPeR7SUGv+C4+MsisMuVfSPx8HpwWqH8tRahSlt6M3PiFAcoeFhZAqIXTxoSg==}
 
   zwitch@1.0.5:
     resolution: {integrity: sha512-V50KMwwzqJV0NpZIZFwfOD5/lyny3WlSzRiXgA0G7VUnRlqttta1L6UQIHzd6EuBY/cHGfwTIck7w1yH6Q5zUw==}
@@ -3406,7 +3402,7 @@ snapshots:
       '@smithy/node-config-provider': 4.0.2
       '@smithy/property-provider': 4.0.2
       '@smithy/protocol-http': 5.1.0
-      '@smithy/signature-v4': 5.0.2
+      '@smithy/signature-v4': 5.1.0
       '@smithy/smithy-client': 4.2.0
       '@smithy/types': 4.2.0
       '@smithy/util-middleware': 4.0.2
@@ -3601,7 +3597,7 @@ snapshots:
       '@aws-sdk/util-format-url': 3.775.0
       '@smithy/middleware-endpoint': 4.1.0
       '@smithy/protocol-http': 5.1.0
-      '@smithy/signature-v4': 5.0.2
+      '@smithy/signature-v4': 5.1.0
       '@smithy/smithy-client': 4.2.0
       '@smithy/types': 4.2.0
       tslib: 2.8.1
@@ -3612,7 +3608,7 @@ snapshots:
       '@aws-sdk/util-format-url': 3.775.0
       '@smithy/middleware-endpoint': 4.1.0
       '@smithy/protocol-http': 5.1.0
-      '@smithy/signature-v4': 5.0.2
+      '@smithy/signature-v4': 5.1.0
       '@smithy/types': 4.2.0
       tslib: 2.8.1
 
@@ -3624,7 +3620,7 @@ snapshots:
       '@smithy/core': 3.2.0
       '@smithy/node-config-provider': 4.0.2
       '@smithy/protocol-http': 5.1.0
-      '@smithy/signature-v4': 5.0.2
+      '@smithy/signature-v4': 5.1.0
       '@smithy/smithy-client': 4.2.0
       '@smithy/types': 4.2.0
       '@smithy/util-config-provider': 4.0.0
@@ -3706,7 +3702,7 @@ snapshots:
       '@aws-sdk/middleware-sdk-s3': 3.775.0
       '@aws-sdk/types': 3.775.0
       '@smithy/protocol-http': 5.1.0
-      '@smithy/signature-v4': 5.0.2
+      '@smithy/signature-v4': 5.1.0
       '@smithy/types': 4.2.0
       tslib: 2.8.1
 
@@ -3820,9 +3816,9 @@ snapshots:
 
   '@breejs/later@4.2.0': {}
 
-  '@cdktf/hcl2json@0.20.11':
+  '@cdktf/hcl2json@0.20.12':
     dependencies:
-      fs-extra: 11.2.0
+      fs-extra: 11.3.0
 
   '@gwhitney/detect-indent@7.0.1': {}
 
@@ -4146,7 +4142,7 @@ snapshots:
       fs-extra: 11.3.0
       toml-eslint-parser: 0.10.0
       upath: 2.0.1
-      zod: 3.24.2
+      zod: 3.24.3
 
   '@renovatebot/kbpgp@4.0.1':
     dependencies:
@@ -4391,7 +4387,7 @@ snapshots:
       '@smithy/types': 4.2.0
       tslib: 2.8.1
 
-  '@smithy/signature-v4@5.0.2':
+  '@smithy/signature-v4@5.1.0':
     dependencies:
       '@smithy/is-array-buffer': 4.0.0
       '@smithy/protocol-http': 5.1.0
@@ -5186,12 +5182,6 @@ snapshots:
 
   fs-constants@1.0.0:
     optional: true
-
-  fs-extra@11.2.0:
-    dependencies:
-      graceful-fs: 4.2.11
-      jsonfile: 6.1.0
-      universalify: 2.0.1
 
   fs-extra@11.3.0:
     dependencies:
@@ -6311,7 +6301,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@39.257.1(encoding@0.1.13)(typanion@3.14.0):
+  renovate@39.257.8(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.777.0
       '@aws-sdk/client-ec2': 3.779.0
@@ -6322,7 +6312,7 @@ snapshots:
       '@aws-sdk/credential-providers': 3.778.0
       '@baszalmstra/rattler': 0.2.1
       '@breejs/later': 4.2.0
-      '@cdktf/hcl2json': 0.20.11
+      '@cdktf/hcl2json': 0.20.12
       '@opentelemetry/api': 1.9.0
       '@opentelemetry/context-async-hooks': 2.0.0(@opentelemetry/api@1.9.0)
       '@opentelemetry/exporter-trace-otlp-http': 0.200.0(@opentelemetry/api@1.9.0)
@@ -6428,7 +6418,7 @@ snapshots:
       vuln-vects: 1.1.0
       xmldoc: 1.3.0
       yaml: 2.7.1
-      zod: 3.24.2
+      zod: 3.24.3
     optionalDependencies:
       better-sqlite3: 11.9.1
       openpgp: 6.1.0
@@ -6993,6 +6983,6 @@ snapshots:
 
   yocto-queue@0.1.0: {}
 
-  zod@3.24.2: {}
+  zod@3.24.3: {}
 
   zwitch@1.0.5: {}
