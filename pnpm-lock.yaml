@@ -16,7 +16,7 @@ importers:
         version: 1.11.13
       renovate:
         specifier: ^40.28.0
-        version: 40.49.11(encoding@0.1.13)(typanion@3.14.0)
+        version: 40.51.0(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -290,8 +290,8 @@ packages:
     resolution: {integrity: sha512-EVMD0SgJtOuFeg0lAVbCwa+qeTKILb87jqvLyUtQswGD9+ce2nB52Y5zbTF1Hc0MDFfbydcMcxb47jSdhikVHA==}
     engines: {node: '>= 10'}
 
-  '@cdktf/hcl2json@0.20.12':
-    resolution: {integrity: sha512-0kisly/cb4UK/cFhMAWMMEq+/FNFwPmDVoZ9ZphvDlXH62eytQcY5gaCxUrztKhncj2EYKovsTPbRq9C8GlRwg==}
+  '@cdktf/hcl2json@0.21.0':
+    resolution: {integrity: sha512-cwX3i/mSJI/cRrtqwEPRfawB7pXgNioriSlkvou8LWiCrrcDe9ZtTbAbu8W1tEJQpe1pnX9VEgpzf/BbM7xF8Q==}
 
   '@gwhitney/detect-indent@7.0.1':
     resolution: {integrity: sha512-7bQW+gkKa2kKZPeJf6+c6gFK9ARxQfn+FKy9ScTBppyKRWH2KzsmweXUoklqeEiHiNVWaeP5csIdsNq6w7QhzA==}
@@ -878,8 +878,8 @@ packages:
   '@types/moo@0.5.5':
     resolution: {integrity: sha512-eXQpwnkI4Ntw5uJg6i2PINdRFWLr55dqjuYQaLHNjvqTzF14QdNWbCbml9sza0byyXNA0hZlHtcdN+VNDcgVHA==}
 
-  '@types/node@24.0.0':
-    resolution: {integrity: sha512-yZQa2zm87aRVcqDyH5+4Hv9KYgSdgwX1rFnGvpbzMaC7YAljmhBET93TPiTd3ObwTL+gSpIzPKg5BqVxdCvxKg==}
+  '@types/node@24.0.1':
+    resolution: {integrity: sha512-MX4Zioh39chHlDJbKmEgydJDS3tspMP/lnQC67G3SWsTnb9NeYVWOjkxpOSy4oMfPs4StcWHwBrvUb4ybfnuaw==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -2446,8 +2446,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@40.49.11:
-    resolution: {integrity: sha512-XTHCntChPrfQRdKrjybphXKg10/PjyZ39H+z+1aHvIUG0XM87S3kfRGsyHtepRLvharN3m4Gc6zGptlNy1GjJQ==}
+  renovate@40.51.0:
+    resolution: {integrity: sha512-abucXMm7z+3cvz/3kkGFa4D0I6umxc6au9zKyF5/Z3d++JAYU92tx3guk45W91U/+odRCKtb2VDjnPBRJV8A4Q==}
     engines: {node: ^22.13.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -3810,7 +3810,7 @@ snapshots:
 
   '@breejs/later@4.2.0': {}
 
-  '@cdktf/hcl2json@0.20.12':
+  '@cdktf/hcl2json@0.21.0':
     dependencies:
       fs-extra: 11.3.0
 
@@ -4550,13 +4550,13 @@ snapshots:
 
   '@types/bunyan@1.8.11':
     dependencies:
-      '@types/node': 24.0.0
+      '@types/node': 24.0.1
 
   '@types/cacheable-request@6.0.3':
     dependencies:
       '@types/http-cache-semantics': 4.0.4
       '@types/keyv': 3.1.4
-      '@types/node': 24.0.0
+      '@types/node': 24.0.1
       '@types/responselike': 1.0.3
 
   '@types/emscripten@1.40.1': {}
@@ -4565,7 +4565,7 @@ snapshots:
 
   '@types/keyv@3.1.4':
     dependencies:
-      '@types/node': 24.0.0
+      '@types/node': 24.0.1
 
   '@types/mdast@3.0.15':
     dependencies:
@@ -4575,7 +4575,7 @@ snapshots:
 
   '@types/moo@0.5.5': {}
 
-  '@types/node@24.0.0':
+  '@types/node@24.0.1':
     dependencies:
       undici-types: 7.8.0
 
@@ -4587,7 +4587,7 @@ snapshots:
 
   '@types/responselike@1.0.3':
     dependencies:
-      '@types/node': 24.0.0
+      '@types/node': 24.0.1
 
   '@types/semver@7.7.0': {}
 
@@ -4599,7 +4599,7 @@ snapshots:
 
   '@types/yauzl@2.10.3':
     dependencies:
-      '@types/node': 24.0.0
+      '@types/node': 24.0.1
     optional: true
 
   '@yarnpkg/core@4.4.2(typanion@3.14.0)':
@@ -6152,7 +6152,7 @@ snapshots:
       '@protobufjs/path': 1.1.2
       '@protobufjs/pool': 1.1.0
       '@protobufjs/utf8': 1.1.0
-      '@types/node': 24.0.0
+      '@types/node': 24.0.1
       long: 5.3.2
 
   protocols@2.0.2: {}
@@ -6267,7 +6267,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@40.49.11(encoding@0.1.13)(typanion@3.14.0):
+  renovate@40.51.0(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.821.0
       '@aws-sdk/client-ec2': 3.821.0
@@ -6278,7 +6278,7 @@ snapshots:
       '@aws-sdk/credential-providers': 3.821.0
       '@baszalmstra/rattler': 0.2.1
       '@breejs/later': 4.2.0
-      '@cdktf/hcl2json': 0.20.12
+      '@cdktf/hcl2json': 0.21.0
       '@opentelemetry/api': 1.9.0
       '@opentelemetry/context-async-hooks': 2.0.1(@opentelemetry/api@1.9.0)
       '@opentelemetry/exporter-trace-otlp-http': 0.202.0(@opentelemetry/api@1.9.0)
