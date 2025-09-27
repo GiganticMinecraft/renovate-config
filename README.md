@@ -13,6 +13,12 @@ Renovate configuration file as follows:
 }
 ```
 
+## For developers
+
+### Prerequisites
+
+* [Mise](https://mise.jdx.dev/getting-started.html)
+
 ## License
 
 This configuration is published under the [MIT license](./LICENSE).
