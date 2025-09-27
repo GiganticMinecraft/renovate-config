@@ -1,9 +1,15 @@
 {
   "name": "@giganticminecraft/renovate-config",
+  "private": true,
   "version": "0.1.0",
   "description": "Renovate Config for use with GiganticMinecraft",
   "license": "MIT",
-  "packageManager": "pnpm@9.15.9",
+  "engines": {
+    "node": "22.20.0",
+    "pnpm": "10.11.0"
+  },
+  "engineStrict": true,
+  "packageManager": "pnpm@10.11.0",
   "repository": {
     "url": "https://github.com/GiganticMinecraft/renovate-config"
   },
@@ -17,7 +23,7 @@
     "test": "renovate-config-validator --strict default.json",
     "postinstall": "lefthook install"
   },
-  "dependencies": {
+  "devDependencies": {
     "@biomejs/biome": "^1.9.4",
     "lefthook": "^1.10.10",
     "renovate": "^40.28.0"
