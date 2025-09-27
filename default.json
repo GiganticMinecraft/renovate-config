@@ -16,6 +16,7 @@
   "packageRules": [
     {
       "description": "Automerge non-major updates",
+      "minimumReleaseAge": "7 days",
       "matchUpdateTypes": ["minor", "patch"],
       "automerge": true
     }
