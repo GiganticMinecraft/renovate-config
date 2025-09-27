@@ -15,10 +15,8 @@
   "reviewers": ["team:admin-team"],
   "packageRules": [
     {
-      "minimumReleaseAge": "7 days"
-    },
-    {
       "description": "Automerge non-major updates",
+      "minimumReleaseAge": "7 days",
       "matchUpdateTypes": ["minor", "patch"],
       "automerge": true
     }
