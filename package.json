@@ -26,6 +26,6 @@
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
     "lefthook": "^1.10.10",
-    "renovate": "^40.28.0"
+    "renovate": "^41.0.0"
   }
 }
