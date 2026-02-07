@@ -16,7 +16,7 @@ importers:
         version: 1.13.6
       renovate:
         specifier: ^42.26.11
-        version: 42.95.1(encoding@0.1.13)(typanion@3.14.0)
+        version: 42.95.2(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -1833,9 +1833,9 @@ packages:
   isexe@2.0.0:
     resolution: {integrity: sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==}
 
-  isexe@3.1.1:
-    resolution: {integrity: sha512-LpB/54B+/2J5hqQ7imZHfdU31OlgQqx7ZicVlkm9kzg9/w8GKLEcFfJl/t7DCEDueOyBAD6zCCwTO6Fzs0NoEQ==}
-    engines: {node: '>=16'}
+  isexe@3.1.2:
+    resolution: {integrity: sha512-mIcis6w+JiQf3P7t7mg/35GKB4T1FQsBOtMIvuKw4YErj5RjtbhcTd5/I30fmkmGMwvI0WlzSNN+27K0QCMkAw==}
+    engines: {node: '>=20'}
 
   jackspeak@3.4.3:
     resolution: {integrity: sha512-OGlZQpz2yfahA/Rd1Y8Cd9SIEsqvXkLVoSw/cgwhnhFMDbsQFeZYoJJ7bIZBS9BcamUW96asq/npPWugM+RQBw==}
@@ -2603,8 +2603,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@42.95.1:
-    resolution: {integrity: sha512-yq9XtNfECpSyyTUqUJYc10pVUAucjOp7hUhBkKkKOfTWLmjPzlBMGRgR7nEbH3auOBzYskk6074QvlXuiyQOoA==}
+  renovate@42.95.2:
+    resolution: {integrity: sha512-IRqs+hqPchlpf/gU2tjSFufNCKPbMCxQNKbfb/SNTrJDfvPAER8opdi7j8MPUwkvEMKZHknELMdd10vJeXHjlw==}
     engines: {node: ^22.13.0 || ^24.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -5746,7 +5746,7 @@ snapshots:
 
   isexe@2.0.0: {}
 
-  isexe@3.1.1:
+  isexe@3.1.2:
     optional: true
 
   jackspeak@3.4.3:
@@ -6760,7 +6760,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@42.95.1(encoding@0.1.13)(typanion@3.14.0):
+  renovate@42.95.2(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.958.0
       '@aws-sdk/client-ec2': 3.958.0
@@ -7368,7 +7368,7 @@ snapshots:
 
   which@6.0.0:
     dependencies:
-      isexe: 3.1.1
+      isexe: 3.1.2
     optional: true
 
   wordwrap@1.0.0: {}
