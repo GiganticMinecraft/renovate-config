@@ -6,10 +6,10 @@
   "license": "MIT",
   "engines": {
     "node": "22.22.0",
-    "pnpm": "10.28.2"
+    "pnpm": "10.29.1"
   },
   "engineStrict": true,
-  "packageManager": "pnpm@10.28.2",
+  "packageManager": "pnpm@10.29.1",
   "repository": {
     "url": "https://github.com/GiganticMinecraft/renovate-config"
   },
