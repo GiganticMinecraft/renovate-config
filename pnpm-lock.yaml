@@ -22,7 +22,7 @@ importers:
         version: 1.13.6
       renovate:
         specifier: ^43.31.9
-        version: 43.60.2(typanion@3.14.0)
+        version: 43.61.0(typanion@3.14.0)
 
 packages:
 
@@ -136,8 +136,8 @@ packages:
     resolution: {integrity: sha512-5DTBTiotEES1e2jOHAq//zyzCjeMB78lEHd35u15qnrid4Nxm7diqIf9fQQ3Ov0ChH1V3Vvt13thOnrACmfGVQ==}
     engines: {node: '>=20.0.0'}
 
-  '@aws-sdk/middleware-flexible-checksums@3.973.6':
-    resolution: {integrity: sha512-0nYEgkJH7Yt9k+nZJyllTghnkKaz17TWFcr5Mi0XMVMzYlF4ytDZADQpF2/iJo36cKL5AYSzRsvlykE4M/ErTA==}
+  '@aws-sdk/middleware-flexible-checksums@3.974.0':
+    resolution: {integrity: sha512-BmdDjqvnuYaC4SY7ypHLXfCSsGYGUZkjCLSZyUAAYn1YT28vbNMJNDwhlfkvvE+hQHG5RJDlEmYuvBxcB9jX1g==}
     engines: {node: '>=20.0.0'}
 
   '@aws-sdk/middleware-host-header@3.972.8':
@@ -240,8 +240,8 @@ packages:
     resolution: {integrity: sha512-qSs4ifwzKJSV39ucNjsvc6WVHs6b7S03sOh2OcHF9UHfVPqWWALUsNUVzhSBiItjRZoLHx7nIarVjqKVusUZ1Q==}
     engines: {node: '>=6.9.0'}
 
-  '@babel/runtime-corejs3@7.29.0':
-    resolution: {integrity: sha512-TgUkdp71C9pIbBcHudc+gXZnihEDOjUAmXO1VO4HHGES7QLZcShR0stfKIxLSNIYx2fqhmJChOjm/wkF8wv4gA==}
+  '@babel/runtime-corejs3@7.29.2':
+    resolution: {integrity: sha512-Lc94FOD5+0aXhdb0Tdg3RUtqT6yWbI/BbFWvlaSJ3gAb9Ks+99nHRDKADVqC37er4eCB0fHyWT+y+K3QOvJKbw==}
     engines: {node: '>=6.9.0'}
 
   '@baszalmstra/rattler@0.2.1':
@@ -354,6 +354,10 @@ packages:
 
   '@npmcli/fs@5.0.0':
     resolution: {integrity: sha512-7OsC1gNORBEawOa5+j2pXN9vsicaIOH5cPXxoR6fJOmH6/EXpJB2CajXOu1fPRFun2m1lktEFX11+P89hqO/og==}
+    engines: {node: ^20.17.0 || >=22.9.0}
+
+  '@npmcli/redact@4.0.0':
+    resolution: {integrity: sha512-gOBg5YHMfZy+TfHArfVogwgfBeQnKbbGo3pSUyK/gSI0AVu+pEiDVcKlQb0D8Mg1LNRZILZ6XG8I5dJ4KuAd9Q==}
     engines: {node: ^20.17.0 || >=22.9.0}
 
   '@one-ini/wasm@0.2.1':
@@ -1204,8 +1208,8 @@ packages:
     engines: {node: '>=6.9.0'}
     hasBin: true
 
-  core-js-pure@3.48.0:
-    resolution: {integrity: sha512-1slJgk89tWC51HQ1AEqG+s2VuwpTRr8ocu4n20QUcH1v9lAN0RXen0Q0AABa/DK1I7RrNWLucplOHMx8hfTGTw==}
+  core-js-pure@3.49.0:
+    resolution: {integrity: sha512-XM4RFka59xATyJv/cS3O3Kml72hQXUeGRuuTmMYFxwzc9/7C8OYTaIR/Ji+Yt8DXzsFLNhat15cE/JP15HrCgw==}
 
   core-util-is@1.0.3:
     resolution: {integrity: sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==}
@@ -1975,8 +1979,8 @@ packages:
     resolution: {integrity: sha512-vtEhXh/gNjI9Yg1u4jX/0YVPMvxzHuGgCm6tC5kZyb08yjGWGnqAjGJvcXbqQR2P3MyMEFnRbpcdFS6PBcLqew==}
     engines: {node: '>=12'}
 
-  make-fetch-happen@15.0.4:
-    resolution: {integrity: sha512-vM2sG+wbVeVGYcCm16mM3d5fuem9oC28n436HjsGO3LcxoTI8LNVa4rwZDn3f76+cWyT4GGJDxjTYU1I2nr6zw==}
+  make-fetch-happen@15.0.5:
+    resolution: {integrity: sha512-uCbIa8jWWmQZt4dSnEStkVC6gdakiinAm4PiGsywIkguF0eWMdcjDz0ECYhUolFU3pFLOev9VNPCEygydXnddg==}
     engines: {node: ^20.17.0 || >=22.9.0}
 
   map-obj@1.0.1:
@@ -2253,8 +2257,8 @@ packages:
     resolution: {integrity: sha512-at/ZndSy3xEGJ8i0ygALh8ru9qy7gWW1cmkaqBN29JmMlIvM//MEO9y1sk/avxuwnPcfhkejkLsuPxH81BrkSg==}
     engines: {node: '>=0.8.0'}
 
-  nan@2.25.0:
-    resolution: {integrity: sha512-0M90Ag7Xn5KMLLZ7zliPWP3rT90P6PN+IzVFS0VqmnPktBk3700xUVv8Ikm9EUaUE5SDWdp/BIxdENzVznpm1g==}
+  nan@2.26.0:
+    resolution: {integrity: sha512-/h3yIdxzdv4Z+S3Q2Q84gAtOrYW7a6g0WGBcTlWkztRHqGv9e4uOZkHmX90wipfzDbRhmyxyxLiIzq0k2EoBTQ==}
 
   napi-build-utils@2.0.0:
     resolution: {integrity: sha512-GEbrYkbfF7MoNaoh2iGG84Mnf/WZfB0GdGEsM8wz7Expx/LlWf5U8t9nvJKXSp3qr5IsEbK04cBGhol/KwOsWA==}
@@ -2292,8 +2296,8 @@ packages:
     engines: {node: ^20.17.0 || >=22.9.0}
     hasBin: true
 
-  node-html-parser@7.0.2:
-    resolution: {integrity: sha512-DxodLVh7a6JMkYzWyc8nBX9MaF4M0lLFYkJHlWOiu7+9/I6mwNK9u5TbAMC7qfqDJEPX9OIoWA2A9t4C2l1mUQ==}
+  node-html-parser@7.1.0:
+    resolution: {integrity: sha512-iJo8b2uYGT40Y8BTyy5ufL6IVbN8rbm/1QK2xffXU/1a/v3AAa0d1YAoqBNYqaS4R/HajkWIpIfdE6KcyFh1AQ==}
 
   nopt@9.0.0:
     resolution: {integrity: sha512-Zhq3a+yFKrYwSBluL4H9XP3m3y5uvQkB/09CwDruCiRmR/UJYnn9W4R48ry0uGC70aeTPKLynBtscP9efFFcPw==}
@@ -2559,8 +2563,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@43.60.2:
-    resolution: {integrity: sha512-WAAWu8KSjkqNmfQcKw6CuS4s0MblHORMLXQ6mlm2U8x1cbGykPEpWQJLK17FLWwbMThzuLwR2SkfaBJe9ieSvQ==}
+  renovate@43.61.0:
+    resolution: {integrity: sha512-QuY9oJmlyYbX4eAtCJqlv1KDm884TnQ9Zsz95x1rxGjjvVJYNwfQDiSEggDJgPjVSjvSmr2PUaGbiZlIU2xT4Q==}
     engines: {node: ^24.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -3391,7 +3395,7 @@ snapshots:
       '@aws-sdk/credential-provider-node': 3.972.21
       '@aws-sdk/middleware-bucket-endpoint': 3.972.8
       '@aws-sdk/middleware-expect-continue': 3.972.8
-      '@aws-sdk/middleware-flexible-checksums': 3.973.6
+      '@aws-sdk/middleware-flexible-checksums': 3.974.0
       '@aws-sdk/middleware-host-header': 3.972.8
       '@aws-sdk/middleware-location-constraint': 3.972.8
       '@aws-sdk/middleware-logger': 3.972.8
@@ -3619,7 +3623,7 @@ snapshots:
       '@smithy/types': 4.13.1
       tslib: 2.8.1
 
-  '@aws-sdk/middleware-flexible-checksums@3.973.6':
+  '@aws-sdk/middleware-flexible-checksums@3.974.0':
     dependencies:
       '@aws-crypto/crc32': 5.2.0
       '@aws-crypto/crc32c': 5.2.0
@@ -3850,9 +3854,9 @@ snapshots:
 
   '@babel/helper-validator-identifier@7.28.5': {}
 
-  '@babel/runtime-corejs3@7.29.0':
+  '@babel/runtime-corejs3@7.29.2':
     dependencies:
-      core-js-pure: 3.48.0
+      core-js-pure: 3.49.0
 
   '@baszalmstra/rattler@0.2.1': {}
 
@@ -3954,6 +3958,9 @@ snapshots:
   '@npmcli/fs@5.0.0':
     dependencies:
       semver: 7.7.4
+
+  '@npmcli/redact@4.0.0':
+    optional: true
 
   '@one-ini/wasm@0.2.1': {}
 
@@ -4201,7 +4208,7 @@ snapshots:
 
   '@qnighy/marshal@0.1.3':
     dependencies:
-      '@babel/runtime-corejs3': 7.29.0
+      '@babel/runtime-corejs3': 7.29.2
 
   '@redis/client@5.11.0':
     dependencies:
@@ -4985,7 +4992,7 @@ snapshots:
       meow: 7.1.1
       through2-concurrent: 2.0.0
 
-  core-js-pure@3.48.0: {}
+  core-js-pure@3.49.0: {}
 
   core-util-is@1.0.3: {}
 
@@ -5099,7 +5106,7 @@ snapshots:
 
   dtrace-provider@0.8.8:
     dependencies:
-      nan: 2.25.0
+      nan: 2.26.0
     optional: true
 
   dunder-proto@1.0.1:
@@ -5755,10 +5762,11 @@ snapshots:
 
   luxon@3.7.2: {}
 
-  make-fetch-happen@15.0.4:
+  make-fetch-happen@15.0.5:
     dependencies:
       '@gar/promise-retry': 1.0.2
       '@npmcli/agent': 4.0.0
+      '@npmcli/redact': 4.0.0
       cacache: 20.0.3
       http-cache-semantics: 4.2.0
       minipass: 7.1.3
@@ -6230,7 +6238,7 @@ snapshots:
       rimraf: 2.4.5
     optional: true
 
-  nan@2.25.0:
+  nan@2.26.0:
     optional: true
 
   napi-build-utils@2.0.0:
@@ -6264,7 +6272,7 @@ snapshots:
       env-paths: 2.2.1
       exponential-backoff: 3.1.3
       graceful-fs: 4.2.11
-      make-fetch-happen: 15.0.4
+      make-fetch-happen: 15.0.5
       nopt: 9.0.0
       proc-log: 6.1.0
       semver: 7.7.4
@@ -6275,7 +6283,7 @@ snapshots:
       - supports-color
     optional: true
 
-  node-html-parser@7.0.2:
+  node-html-parser@7.1.0:
     dependencies:
       css-select: 5.2.2
       he: 1.2.0
@@ -6495,7 +6503,7 @@ snapshots:
   re2@1.23.3:
     dependencies:
       install-artifact-from-github: 1.4.0
-      nan: 2.25.0
+      nan: 2.26.0
       node-gyp: 12.2.0
     transitivePeerDependencies:
       - supports-color
@@ -6584,7 +6592,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@43.60.2(typanion@3.14.0):
+  renovate@43.61.0(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1000.0
       '@aws-sdk/client-ec2': 3.1000.0
@@ -6674,7 +6682,7 @@ snapshots:
       moo: 0.5.3
       ms: 2.1.3
       neotraverse: 0.6.18
-      node-html-parser: 7.0.2
+      node-html-parser: 7.1.0
       p-all: 5.0.1
       p-map: 7.0.4
       p-queue: 9.1.0
