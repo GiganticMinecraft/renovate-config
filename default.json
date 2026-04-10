@@ -15,6 +15,10 @@
   "reviewers": ["team:admin-team"],
   "packageRules": [
     {
+      "matchCategories": ["rust"],
+      "enabled": true
+    },
+    {
       "description": "Automerge non-major updates",
       "minimumReleaseAge": "7 days",
       "matchUpdateTypes": ["minor", "patch"],
