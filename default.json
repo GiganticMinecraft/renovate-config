@@ -13,10 +13,11 @@
     "schedule": ["at any time"]
   },
   "reviewers": ["team:admin-team"],
-  "rust-toolchain": {
-    "enabled": true
-  },
   "packageRules": [
+    {
+      "matchCategories": ["rust"],
+      "enabled": true
+    },
     {
       "description": "Automerge non-major updates",
       "minimumReleaseAge": "7 days",
