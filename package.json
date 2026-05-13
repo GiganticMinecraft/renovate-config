@@ -35,8 +35,7 @@
       "minimatch@^10": "^10.2.1",
       "fast-xml-parser@^5": "^5.3.6",
       "handlebars@^4": "^4.7.9",
-      "protobufjs@^8": "^8.0.2",
-      "simple-git@^3": "^3.36.0"
+      "protobufjs@^8": "^8.0.2"
     }
   }
 }

@@ -11,7 +11,6 @@ overrides:
   fast-xml-parser@^5: ^5.3.6
   handlebars@^4: ^4.7.9
   protobufjs@^8: ^8.0.2
-  simple-git@^3: ^3.36.0
 
 importers:
 
@@ -2388,8 +2387,8 @@ packages:
   simple-get@4.0.1:
     resolution: {integrity: sha512-brv7p5WgH0jmQJr1ZDDfKDOSeWWg+OVypG99A/5vYGPqJ6pxiaHLy8nxtFjBA7oMa01ebA9gfh1uMCFqOuXxvA==}
 
-  simple-git@3.36.0:
-    resolution: {integrity: sha512-cGQjLjK8bxJw4QuYT7gxHw3/IouVESbhahSsHrX97MzCL1gu2u7oy38W6L2ZIGECEfIBG4BabsWDPjBxJENv9Q==}
+  simple-git@3.35.2:
+    resolution: {integrity: sha512-ZMjl06lzTm1EScxEGuM6+mEX+NQd14h/B3x0vWU+YOXAMF8sicyi1K4cjTfj5is+35ChJEHDl1EjypzYFWH2FA==}
 
   slugify@1.6.9:
     resolution: {integrity: sha512-vZ7rfeehZui7wQs438JXBckYLkIIdfHOXsaVEUMyS5fHo1483l1bMdo0EDSWYclY0yZKFOipDy4KHuKs6ssvdg==}
@@ -5939,7 +5938,7 @@ snapshots:
       semver-stable: 3.0.0
       semver-utils: 1.1.4
       shlex: 3.0.0
-      simple-git: 3.36.0
+      simple-git: 3.35.2
       slugify: 1.6.9
       source-map-support: 0.5.21
       strip-json-comments: 5.0.3
@@ -6073,7 +6072,7 @@ snapshots:
       simple-concat: 1.0.1
     optional: true
 
-  simple-git@3.36.0:
+  simple-git@3.35.2:
     dependencies:
       '@kwsites/file-exists': 1.1.1
       '@kwsites/promise-deferred': 1.1.1
