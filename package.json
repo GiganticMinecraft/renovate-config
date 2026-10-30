@@ -5,7 +5,7 @@
   "description": "Renovate Config for use with GiganticMinecraft",
   "license": "MIT",
   "engines": {
-    "node": "24.11.0",
+    "node": "24.22.1",
     "pnpm": "10.34.7"
   },
   "engineStrict": true,
