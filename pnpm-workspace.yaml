@@ -1,7 +1,15 @@
-onlyBuiltDependencies:
-  - better-sqlite3
-  - core-js-pure
-  - dtrace-provider
-  - lefthook
-  - protobufjs
-  - re2
+allowBuilds:
+  better-sqlite3: true
+  core-js-pure: true
+  dtrace-provider: true
+  lefthook: true
+  protobufjs: true
+  re2: true
+
+overrides:
+  minimatch@^3: ^3.1.3
+  minimatch@^9: ^9.0.6
+  minimatch@^10: ^10.2.1
+  handlebars@^4: ^4.7.10
+  protobufjs@^8: ^8.0.2
+  markdown-it@^15: ^15.0.3
